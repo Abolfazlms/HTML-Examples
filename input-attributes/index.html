@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>input attributes</legend>
+
+            <!-- read only -->
+
+            <div>
+                <input type="text" readonly value="test text">
+            </div>
+
+            <!--disabled-->
+
+            <div>
+                <button type="button" disabled>Click!</button>
+            </div>
+            
+            <!--max lenght-->
+
+            <div>
+                <input type="text" maxlength=21>
+            </div>
+
+            <!--min , max-->
+
+            <div>
+                <input type="number" min="0" max="21">
+            </div>
+            
+            <!--multiple-->
+
+            <div>
+                <input type="file" multiple>
+            </div>
+            
+            <!--place holder-->
+
+            <div>
+                <input type="text" placeholder="username">
+            </div>
+            
+            <!--required-->
+
+            <div>
+                <input type="text" required placeholder="Email">
+            </div>
+
+            <!--auto focus-->
+
+            <div>
+                <input type="text" autofocus>
+            </div>            
+        </fieldset>
+        <button type="submit">submit</button>
+    </form>
+    
+</body>
+</html>
