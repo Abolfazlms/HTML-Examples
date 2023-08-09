@@ -7,11 +7,51 @@
         <style>
             body{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                font-size: 21px;
+                font-size: 18px;
             }
         </style>
     </head>
     <body>
-        
+        <form action="">
+            <fieldset>
+                <legend>personal information</legend>
+                <h3>Full Name : </h3>
+                <div>                
+                    <label for="fname">First Name : </label>
+                    <input type="text" id="fname">
+                </div>
+                <div>                
+                    <label for="lname">Last Name : </label>
+                    <input type="text" id="lname">
+                </div>
+                <h3>Gender : </h3>
+                <div>
+                    <input type="radio" id="male" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>skills</legend>
+                <h3>Frontend field</h3>
+                <div>
+                    <input type="checkbox" id="html" value="html">
+                    <label for="html">HTML5</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="css" value="css">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="js" value="javascript">
+                    <label for="js">Javascript</label>
+                </div>
+            </fieldset>
+            
+        </form>
     </body>
 </html>
